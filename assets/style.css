@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../img/papyrus.png");
+    background-repeat: repeat;
+}
+
+h1, h2, h3, #brand{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h1 {
+    margin-top: 0;
+    color: #4AAAA5;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+nav {
+    background: #fff;   
+    border-bottom: 2px solid #dddddd;
+}
+
+.nav-container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 960px;
+    margin: 40px auto 100px;
+    padding: 30px 25px;
+    background: #fff;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#brand {
+    padding: 25px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: #4AAAA5;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.links {
+    float: right;
+    padding: 25px 0;
+    margin: 0;
+}
+
+.links li{
+    display: inline-block;
+    padding: 0 15px;
+    
+}
+
+.links a {
+    color: #A39B9B;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.links a:hover {
+    color: #4AAAA5;
+}
+
+.portfolio-img {
+    float: left;
+    margin-right: 25px;
+}
+
+.content p{
+    line-height: 2;
+    color: #777777;
+}
+
+.portfolio-item {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    background-image: url("../img/item1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0 30px 30px 0;
+}
+
+.portfolio-item p{
+    color: #fff;
+    background: #4AAAA5;
+    position: absolute;
+    bottom: 5px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+label {
+    display: block;
+    color:#777777;
+    margin: 15px 0 5px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    border: 1px solid lightgray;
+}
+
+#submit {
+    color: #fff;
+    background: #4AAAA5;
+    padding: 10px 35px;
+    margin-top: 20px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer {
+    background: #666666;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 7px solid #4AAAA5;
+    padding: 30px 0 10px;
+}
+
+footer p {
+    font-size: 11px;
+    margin: 0;
+    color: lightgray;
+}

@@ -95,8 +95,8 @@ nav {
 }
 
 .portfolio-item {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     display: inline-block;
     position: relative;
     background-image: url("../img/item1.jpg");
